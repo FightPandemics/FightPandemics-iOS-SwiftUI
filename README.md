@@ -27,10 +27,10 @@ Any and all are welcome! Please complete the following before submitting a pull 
 
 ## Code of Conduct
 
-All contributors are expected to adhere by and be respected by the [Code of Conduct](https://github.com/FightPandemics/FightPandemics/blob/master/CODE_OF_CONDUCT.md).
+All contributors are expected to adhere by and be respected by the [Code of Conduct](https://github.com/FightPandemics/FightPandemics/blob/staging/CODE_OF_CONDUCT.md).
 
 ## Recognition
 
-Thank you all [contributors](https://github.com/FightPandemics/FightPandemics-iOS-SwiftUI/contributors) :rocket:
+Thank you all [Contributors](https://github.com/FightPandemics/FightPandemics-iOS-SwiftUI/contributors) :rocket:
 
 
