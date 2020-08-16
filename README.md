@@ -33,6 +33,4 @@ All contributors are expected to adhere by and be respected by the [Code of Cond
 
 Thank you all [contributors](https://github.com/FightPandemics/FightPandemics-iOS-SwiftUI/contributors) :rocket:
 
-## License
 
-FightPandemics is available under the MIT license. 
