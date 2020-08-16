@@ -14,7 +14,7 @@ Any and all are welcome! Please complete the following before submitting a pull 
 
 2. Familiarize yourself with SwiftUI documentation (https://developer.apple.com/documentation/swiftui)
 
-3. Familiarize yourself with Apple's Human Interface Guidelines [https://developer.apple.com/design/human-interface-guidelines/]
+3. Familiarize yourself with Apple's Human Interface Guidelines (https://developer.apple.com/design/human-interface-guidelines/)
 
 4. It is impertive to follow the coding standards of the Swift API Guidlines (https://swift.org/documentation/api-design-guidelines/)
 
