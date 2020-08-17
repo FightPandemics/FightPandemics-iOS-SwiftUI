@@ -23,7 +23,7 @@ Any and all are welcome! Please complete the following before submitting a [pull
 * Click 'Code' and dowload the zip file to your local environment.
 * Open the decompressed file in Xcode version 11+. 
 * Code away!
-* Once you are done, open an issue or submit a pull a request.
+* Once you are done, open an issue or submit a pull request.
 
 ## Code of Conduct
 
