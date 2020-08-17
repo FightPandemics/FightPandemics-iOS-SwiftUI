@@ -8,7 +8,7 @@ SwiftUI iOS app for the [FightPandemics](https://fightpandemics.com/) platform :
 
 ## Contributing
 
-Any and all are welcome! Please complete the following before submitting a pull request :
+Any and all are welcome! Please complete the following before submitting a [pull request](https://github.com/FightPandemics/FightPandemics-android/blob/development/PULL_REQUEST_TEMPLATE.md) :
 
 1. Visit Apple's WWDC '20 to get up and running with SwiftUI quickly (https://developer.apple.com/videos/play/wwdc2020/10119/)
 
