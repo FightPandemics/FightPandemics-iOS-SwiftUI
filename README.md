@@ -18,7 +18,7 @@ Any and all are welcome! Please complete the following before submitting a [pull
 
 4. It is impertive to follow the coding standards of the Swift API Guidlines (https://swift.org/documentation/api-design-guidelines/)
 
-### Getting Started
+## Getting Started
 
 * Click 'Code' and dowload the zip file to your local environment.
 * Open the decompressed file in Xcode version 11+. 
