@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4957641924FDA0D700AAFA50 /* FightPandemicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957641824FDA0D700AAFA50 /* FightPandemicsUITests.swift */; };
 		D20B90B524E6D32B00BFA575 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20B90B424E6D32B00BFA575 /* Home.swift */; };
 		D20B90B724E6D34500BFA575 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20B90B624E6D34500BFA575 /* Search.swift */; };
 		D20B90B924E6D37900BFA575 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20B90B824E6D37900BFA575 /* Post.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4957641824FDA0D700AAFA50 /* FightPandemicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightPandemicsUITests.swift; sourceTree = "<group>"; };
 		D20B90B424E6D32B00BFA575 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		D20B90B624E6D34500BFA575 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		D20B90B824E6D37900BFA575 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 		D2A898C324E6C25400CD3483 = {
 			isa = PBXGroup;
 			children = (
+				4957641824FDA0D700AAFA50 /* FightPandemicsUITests.swift */,
 				D2A898CE24E6C25400CD3483 /* FPTest */,
 				D2A898CD24E6C25400CD3483 /* Products */,
 			);
@@ -190,6 +193,7 @@
 				D2A898D224E6C25400CD3483 /* SceneDelegate.swift in Sources */,
 				D20B90B724E6D34500BFA575 /* Search.swift in Sources */,
 				D20B90BB24E6D38B00BFA575 /* Inbox.swift in Sources */,
+				4957641924FDA0D700AAFA50 /* FightPandemicsUITests.swift in Sources */,
 				D20B90B924E6D37900BFA575 /* Post.swift in Sources */,
 				D20B90B524E6D32B00BFA575 /* Home.swift in Sources */,
 				D2A898D424E6C25400CD3483 /* ContentView.swift in Sources */,
