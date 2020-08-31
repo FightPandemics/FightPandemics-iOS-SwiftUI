@@ -16,11 +16,11 @@ Any and all are welcome! Please complete the following before submitting a [pull
 
 3. Familiarize yourself with Apple's Human Interface Guidelines (https://developer.apple.com/design/human-interface-guidelines/)
 
-4. It is impertive to follow the coding standards of the Swift API Guidlines (https://swift.org/documentation/api-design-guidelines/)
+4. It is imperative to follow the coding standards of the Swift API Guidelines (https://swift.org/documentation/api-design-guidelines/)
 
 ## Getting Started
 
-* Click 'Code' and dowload the zip file to your local environment.
+* Click 'Code' and download the zip file to your local environment.
 * Open the decompressed file in Xcode version 11+. 
 * Code away!
 * Once you are done, open an issue or submit a pull request.
