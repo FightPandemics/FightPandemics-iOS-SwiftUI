@@ -19,11 +19,20 @@ See the [CONTRIBUTING](https://github.com/FightPandemics/FightPandemics-iOS/blob
 
 :heavy_check_mark: :exclamation: *IMPORTANT :exclamation: BEFORE submitting a Pull Request: **build and run the project** to verify changes are **error and warning free** :100:
 
-### Getting Started
+## Getting Started
 
 * Click "Code" and install the .zip folder to your desktop.
 * Unzip the file, and upload the project folder to Xcode version 11.6 and higher.
 * Happy coding with SwiftUI!
+
+## Build
+
+* SwiftUI
+* MVVM
+* Combine
+* GCD
+* XCTest
+* MongoDB database
 
 ## Credits
 
