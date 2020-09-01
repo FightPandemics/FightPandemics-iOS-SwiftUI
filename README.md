@@ -1,9 +1,12 @@
 # FightPandemics-iOS-SwiftUI
 A place to offer and request help. Pandemics will happen. We help communities prepare and respond.
 
-[![Swift Version](https://img.shields.io/badge/swift-5.2-orange.svg?style=for-the-badge&logo=appveyor)](#) 
-[![License](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge&logo=appveyor)](https://raw.githubusercontent.com/FightPandemics/FightPandemics-iOS/develop/LICENSE) 
-[![Platform](https://img.shields.io/badge/platform-ios-blue.svg?style=for-the-badge&logo=appveyor)](#)
+![Swift Version](https://img.shields.io/badge/swift-5.2-orange.svg?style=for-the-badge&logo=appveyor)
+![SwiftUI Version](https://img.shields.io/badge/SwiftUI-1.0-9cf.svg?style=for-the-badge&logo=appveyor)
+![Pattern](https://img.shields.io/badge/pattern-MVVM-orange.svg?style=for-the-badge&logo=appveyor) 
+![Framework](https://img.shields.io/badge/framework-Combine-yellow.svg?style=for-the-badge&logo=appveyor)
+![Testing](https://img.shields.io/badge/tests-xctest-red.svg?style=for-the-badge&logo=appveyor)
+![Database](https://img.shields.io/badge/database-mongodb-green.svg?style=for-the-badge&logo=appveyor)
 
 SwiftUI-iOS app for the [FightPandemics](https://fightpandemics.com/) platform :iphone:
 
