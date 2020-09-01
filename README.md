@@ -12,7 +12,7 @@ SwiftUI-iOS app for the [FightPandemics](https://fightpandemics.com/) platform :
 
 ## Contributing Steps
 
-See the [CONTRIBUTING](https://github.com/FightPandemics/FightPandemics-iOS/blob/develop/CONTRIBUTING.md) file for general guidelines on contributing.
+See the [CONTRIBUTING](https://github.com/FightPandemics/FightPandemics-iOS-SwiftUI/blob/master/CONTRIBUTING.md) file for general guidelines on contributing.
 
 :heavy_check_mark: Please watch, learn, and code along with Apple's [Introduction to SwiftUI](https://developer.apple.com/videos/play/wwdc2020/10119/)
 
