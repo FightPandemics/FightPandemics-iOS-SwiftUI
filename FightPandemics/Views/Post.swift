@@ -11,6 +11,8 @@ import SwiftUI
 struct Post: View {
     var body: some View {
         Text("Post UI")
+            .font(.custom("WorkSans-Bold", size: 30))
+        
     }
 }
 
