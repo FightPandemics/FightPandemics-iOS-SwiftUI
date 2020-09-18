@@ -28,7 +28,7 @@ struct Home: View {
             Spacer()
             
             Text("Feed will go here")
-                .font(.body)
+                .font(.subheadline)
             
             Spacer()
             
