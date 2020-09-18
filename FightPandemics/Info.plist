@@ -4,12 +4,10 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
+		<string>WorkSans-VariableFont_wght.ttf</string>
 		<string>DMSans-Regular.ttf</string>
 		<string>DMSans-Medium.ttf</string>
 		<string>DMSans-Bold.ttf</string>
-		<string>WorkSans-Regular.otf</string>
-		<string>WorkSans-Medium.otf</string>
-		<string>WorkSans-Bold.otf</string>
 		<string>OpenSans-Regular.ttf</string>
 		<string>OpenSans-Bold.ttf</string>
 		<string>Poppins-Regular.otf</string>

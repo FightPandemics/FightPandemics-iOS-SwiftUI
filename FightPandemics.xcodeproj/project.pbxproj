@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3609BEBE251542960041EA52 /* Font+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3609BEBD251542960041EA52 /* Font+Additions.swift */; };
+		3609BEC7251542B90041EA52 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3609BEC4251542B90041EA52 /* Feed.swift */; };
+		3609BEC8251542B90041EA52 /* TagSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3609BEC6251542B90041EA52 /* TagSelected.swift */; };
+		3609BECE251544500041EA52 /* MetaInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3609BECD251544500041EA52 /* MetaInfo.swift */; };
+		3609BED6251544970041EA52 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3609BED5251544970041EA52 /* UserInfo.swift */; };
+		3609BEDE251544CD0041EA52 /* SocialButtonsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3609BEDD251544CD0041EA52 /* SocialButtonsGroup.swift */; };
+		3609BEE3251544F00041EA52 /* TextBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3609BEE2251544F00041EA52 /* TextBody.swift */; };
+		3609BEEE251545D90041EA52 /* WorkSans-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3609BEED251545D90041EA52 /* WorkSans-VariableFont_wght.ttf */; };
 		A6214FD62514F31E0033BE9B /* DMSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6214FCB2514F31E0033BE9B /* DMSans-Regular.ttf */; };
 		A6214FD72514F31E0033BE9B /* DMSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6214FCC2514F31E0033BE9B /* DMSans-Medium.ttf */; };
 		A6214FD82514F31E0033BE9B /* WorkSans-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = A6214FCD2514F31E0033BE9B /* WorkSans-Medium.otf */; };
 		A6214FD92514F31E0033BE9B /* DMSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6214FCE2514F31E0033BE9B /* DMSans-Bold.ttf */; };
 		A6214FDA2514F31E0033BE9B /* Poppins-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = A6214FCF2514F31E0033BE9B /* Poppins-Medium.otf */; };
-		A6214FDB2514F31E0033BE9B /* WorkSans-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A6214FD02514F31E0033BE9B /* WorkSans-Regular.otf */; };
-		A6214FDC2514F31E0033BE9B /* WorkSans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A6214FD12514F31E0033BE9B /* WorkSans-Bold.otf */; };
 		A6214FDD2514F31E0033BE9B /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6214FD22514F31E0033BE9B /* OpenSans-Bold.ttf */; };
 		A6214FDE2514F31E0033BE9B /* Poppins-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A6214FD32514F31E0033BE9B /* Poppins-Bold.otf */; };
 		A6214FDF2514F31E0033BE9B /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6214FD42514F31E0033BE9B /* OpenSans-Regular.ttf */; };
@@ -61,13 +67,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3609BEBD251542960041EA52 /* Font+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Font+Additions.swift"; sourceTree = "<group>"; };
+		3609BEC4251542B90041EA52 /* Feed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		3609BEC6251542B90041EA52 /* TagSelected.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagSelected.swift; sourceTree = "<group>"; };
+		3609BECD251544500041EA52 /* MetaInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaInfo.swift; sourceTree = "<group>"; };
+		3609BED5251544970041EA52 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		3609BEDD251544CD0041EA52 /* SocialButtonsGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialButtonsGroup.swift; sourceTree = "<group>"; };
+		3609BEE2251544F00041EA52 /* TextBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBody.swift; sourceTree = "<group>"; };
+		3609BEED251545D90041EA52 /* WorkSans-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		A6214FCB2514F31E0033BE9B /* DMSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Regular.ttf"; sourceTree = "<group>"; };
 		A6214FCC2514F31E0033BE9B /* DMSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Medium.ttf"; sourceTree = "<group>"; };
 		A6214FCD2514F31E0033BE9B /* WorkSans-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Medium.otf"; sourceTree = "<group>"; };
 		A6214FCE2514F31E0033BE9B /* DMSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Bold.ttf"; sourceTree = "<group>"; };
 		A6214FCF2514F31E0033BE9B /* Poppins-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.otf"; sourceTree = "<group>"; };
-		A6214FD02514F31E0033BE9B /* WorkSans-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Regular.otf"; sourceTree = "<group>"; };
-		A6214FD12514F31E0033BE9B /* WorkSans-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Bold.otf"; sourceTree = "<group>"; };
 		A6214FD22514F31E0033BE9B /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 		A6214FD32514F31E0033BE9B /* Poppins-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.otf"; sourceTree = "<group>"; };
 		A6214FD42514F31E0033BE9B /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
@@ -118,16 +130,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3609BEBC251542960041EA52 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3609BEBD251542960041EA52 /* Font+Additions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3609BEC2251542B90041EA52 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3609BEC3251542B90041EA52 /* Cards */,
+				3609BEC5251542B90041EA52 /* Tags */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3609BEC3251542B90041EA52 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				3609BECC2515443B0041EA52 /* Feed */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		3609BEC5251542B90041EA52 /* Tags */ = {
+			isa = PBXGroup;
+			children = (
+				3609BEC6251542B90041EA52 /* TagSelected.swift */,
+			);
+			path = Tags;
+			sourceTree = "<group>";
+		};
+		3609BECC2515443B0041EA52 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				3609BEC4251542B90041EA52 /* Feed.swift */,
+				3609BEF2251546090041EA52 /* FeedComponents */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		3609BEF2251546090041EA52 /* FeedComponents */ = {
+			isa = PBXGroup;
+			children = (
+				3609BECD251544500041EA52 /* MetaInfo.swift */,
+				3609BED5251544970041EA52 /* UserInfo.swift */,
+				3609BEE2251544F00041EA52 /* TextBody.swift */,
+				3609BEDD251544CD0041EA52 /* SocialButtonsGroup.swift */,
+			);
+			name = FeedComponents;
+			sourceTree = "<group>";
+		};
 		A6214FCA2514F31E0033BE9B /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				3609BEED251545D90041EA52 /* WorkSans-VariableFont_wght.ttf */,
 				A6214FCB2514F31E0033BE9B /* DMSans-Regular.ttf */,
 				A6214FCC2514F31E0033BE9B /* DMSans-Medium.ttf */,
 				A6214FCD2514F31E0033BE9B /* WorkSans-Medium.otf */,
 				A6214FCE2514F31E0033BE9B /* DMSans-Bold.ttf */,
 				A6214FCF2514F31E0033BE9B /* Poppins-Medium.otf */,
-				A6214FD02514F31E0033BE9B /* WorkSans-Regular.otf */,
-				A6214FD12514F31E0033BE9B /* WorkSans-Bold.otf */,
 				A6214FD22514F31E0033BE9B /* OpenSans-Bold.ttf */,
 				A6214FD32514F31E0033BE9B /* Poppins-Bold.otf */,
 				A6214FD42514F31E0033BE9B /* OpenSans-Regular.ttf */,
@@ -162,13 +226,14 @@
 				D21DA43E24FE4CE1006AA90A /* Models */,
 				D21DA43D24FE4CD8006AA90A /* ViewModels */,
 				D21DA43C24FE4CD3006AA90A /* Views */,
+				3609BEBC251542960041EA52 /* Extensions */,
 				D21DA40C24FE4C82006AA90A /* AppDelegate.swift */,
 				D21DA40E24FE4C82006AA90A /* SceneDelegate.swift */,
 				D21DA41024FE4C82006AA90A /* ContentView.swift */,
+				A6214FCA2514F31E0033BE9B /* Fonts */,
 				D21DA41224FE4C82006AA90A /* Assets.xcassets */,
 				D21DA41724FE4C82006AA90A /* LaunchScreen.storyboard */,
 				D21DA41A24FE4C82006AA90A /* Info.plist */,
-				A6214FCA2514F31E0033BE9B /* Fonts */,
 				D21DA41424FE4C82006AA90A /* Preview Content */,
 			);
 			path = FightPandemics;
@@ -203,6 +268,7 @@
 		D21DA43C24FE4CD3006AA90A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3609BEC2251542B90041EA52 /* Components */,
 				D21DA43F24FE4CED006AA90A /* Login */,
 				D21DA44324FE4D12006AA90A /* Home.swift */,
 				D21DA44024FE4D12006AA90A /* Inbox.swift */,
@@ -339,14 +405,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6214FDD2514F31E0033BE9B /* OpenSans-Bold.ttf in Resources */,
+				3609BEEE251545D90041EA52 /* WorkSans-VariableFont_wght.ttf in Resources */,
 				A6214FDA2514F31E0033BE9B /* Poppins-Medium.otf in Resources */,
 				A6214FD72514F31E0033BE9B /* DMSans-Medium.ttf in Resources */,
 				D21DA41924FE4C82006AA90A /* LaunchScreen.storyboard in Resources */,
 				D21DA41624FE4C82006AA90A /* Preview Assets.xcassets in Resources */,
-				A6214FDC2514F31E0033BE9B /* WorkSans-Bold.otf in Resources */,
 				A6214FDE2514F31E0033BE9B /* Poppins-Bold.otf in Resources */,
 				D21DA41324FE4C82006AA90A /* Assets.xcassets in Resources */,
-				A6214FDB2514F31E0033BE9B /* WorkSans-Regular.otf in Resources */,
 				A6214FD82514F31E0033BE9B /* WorkSans-Medium.otf in Resources */,
 				A6214FD92514F31E0033BE9B /* DMSans-Bold.ttf in Resources */,
 				A6214FDF2514F31E0033BE9B /* OpenSans-Regular.ttf in Resources */,
@@ -376,10 +441,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3609BEDE251544CD0041EA52 /* SocialButtonsGroup.swift in Sources */,
+				3609BECE251544500041EA52 /* MetaInfo.swift in Sources */,
 				D21DA40D24FE4C82006AA90A /* AppDelegate.swift in Sources */,
+				3609BEC7251542B90041EA52 /* Feed.swift in Sources */,
 				D21DA44824FE4D12006AA90A /* Profile.swift in Sources */,
+				3609BEE3251544F00041EA52 /* TextBody.swift in Sources */,
 				D21DA40F24FE4C82006AA90A /* SceneDelegate.swift in Sources */,
+				3609BEC8251542B90041EA52 /* TagSelected.swift in Sources */,
+				3609BEBE251542960041EA52 /* Font+Additions.swift in Sources */,
 				D21DA45124FE4D12006AA90A /* Post.swift in Sources */,
+				3609BED6251544970041EA52 /* UserInfo.swift in Sources */,
 				D21DA44B24FE4D12006AA90A /* Search.swift in Sources */,
 				D21DA44524FE4D12006AA90A /* Inbox.swift in Sources */,
 				D21DA41124FE4C82006AA90A /* ContentView.swift in Sources */,
