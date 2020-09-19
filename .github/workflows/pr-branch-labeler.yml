@@ -11,7 +11,10 @@ jobs:
       uses: ffittschen/pr-branch-labeler@v1
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        feature: "feature/*"
+        Frontend: "UI/*"
+        Backend: "Backend/*"
+        API Integration: "API/*"
         bugfix: "bugfix/*"
+        enhancement: "enhancement/*"
         base: "release/*"
  
