@@ -1,5 +1,5 @@
 //
-//  ColorMananger.swift
+//  FPColor.swift
 //  FightPandemics
 //
 //  Created by Luciano Schillagi on 9/18/20.
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct ColorManager {
+struct FPColor {
     static let black = Color("black")
     static let black30 = Color("black30")
     static let blackThree = Color("blackThree")
@@ -26,4 +26,6 @@ struct ColorManager {
     static let veryLightPinkTwo = Color("veryLightPinkTwo")
     static let white = Color("white")
 }
+
+// https://app.zeplin.io/project/5ecaeec0e0303147915effa8/styleguide/colors
     
