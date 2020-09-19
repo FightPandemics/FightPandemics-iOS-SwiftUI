@@ -2,11 +2,12 @@
 A place to offer and request help. Pandemics will happen. We help communities prepare and respond.
 
 ![Swift Version](https://img.shields.io/badge/swift-5.2-orange.svg?style=for-the-badge&logo=appveyor)
-![SwiftUI Version](https://img.shields.io/badge/SwiftUI-1.0-blue.svg?style=for-the-badge&logo=appveyor)
+![SwiftUI Version](https://img.shields.io/badge/SwiftUI-2.0-blue.svg?style=for-the-badge&logo=appveyor)
 ![Pattern](https://img.shields.io/badge/pattern-MVVM-blueviolet.svg?style=for-the-badge&logo=appveyor) 
 ![Framework](https://img.shields.io/badge/framework-Combine-yellow.svg?style=for-the-badge&logo=appveyor)
 ![Testing](https://img.shields.io/badge/tests-xctest-red.svg?style=for-the-badge&logo=appveyor)
 ![Database](https://img.shields.io/badge/database-mongodb-green.svg?style=for-the-badge&logo=appveyor)
+![Build](https://github.com/FightPandemics/FightPandemics-iOS-SwiftUI/workflows/Build/badge.svg?)
 
 SwiftUI-iOS app for the [FightPandemics](https://fightpandemics.com/) platform :iphone:
 
