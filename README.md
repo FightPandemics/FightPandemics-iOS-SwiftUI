@@ -7,6 +7,7 @@ A place to offer and request help. Pandemics will happen. We help communities pr
 ![Framework](https://img.shields.io/badge/framework-Combine-yellow.svg?style=for-the-badge&logo=appveyor)
 ![Testing](https://img.shields.io/badge/tests-xctest-red.svg?style=for-the-badge&logo=appveyor)
 ![Database](https://img.shields.io/badge/database-mongodb-green.svg?style=for-the-badge&logo=appveyor)
+
 ![Build](https://github.com/FightPandemics/FightPandemics-iOS-SwiftUI/workflows/Build/badge.svg?)
 
 SwiftUI-iOS app for the [FightPandemics](https://fightpandemics.com/) platform :iphone:
