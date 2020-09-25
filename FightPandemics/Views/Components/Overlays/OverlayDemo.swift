@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct OverlayDemo: View {
-    @State var showOverlay = true
+    @State var showOverlay = false
     @State var dragTranslate = CGSize.zero
     let keyWindow = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
     var body: some View {
@@ -32,7 +32,7 @@ struct OverlayDemo: View {
                                 }
                             })
                             .onEnded({ (value) in
-                                if value.translation.height > 150.0 {
+                                if value.translation.height > 120.0 {
                                     self.showOverlay = false
                                     dragTranslate = CGSize.zero
                                 } else {
