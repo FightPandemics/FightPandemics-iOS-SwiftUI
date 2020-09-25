@@ -2,8 +2,7 @@
 //  Font+Additions.swift
 //  FightPandemic [IOS]
 //
-//  Generated on Zeplin. (9/17/2020).
-//  Copyright (c) 2020 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2020 Scott. All rights reserved.
 //
 
 import SwiftUI
