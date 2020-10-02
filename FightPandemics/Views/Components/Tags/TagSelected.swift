@@ -9,8 +9,10 @@
 import SwiftUI
 
 struct TagSelected: View {
+    let text: String
+    
     var body: some View {
-        Text("Label")
+        Text(text)
             .font(.iosNativeP311Px)
             .padding(.vertical, 8)
             .padding(.horizontal, 20)
@@ -22,7 +24,7 @@ struct TagSelected: View {
 
 struct TagSelected_Previews: PreviewProvider {
     static var previews: some View {
-        TagSelected()
+        TagSelected(text: "Label")
             .previewLayout(.fixed(width: 100, height: 60))
     }
 }

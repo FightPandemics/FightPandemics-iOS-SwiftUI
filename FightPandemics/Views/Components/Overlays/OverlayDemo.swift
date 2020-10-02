@@ -9,20 +9,20 @@
 import SwiftUI
 
 struct OverlayDemo: View {
-    @State var showOverlay = false
-    @State var dragTranslate = CGSize.zero
-    let keyWindow = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
+    @State private var showOverlay = true
+    @State private var dragTranslate = CGSize.zero
+    
     var body: some View {
         ZStack {
             Button(action: {
-                showOverlay.toggle()
+                self.showOverlay.toggle()
             }) {
                 Text("Show Overlay")
                     .font(.iosNativeP114Px)
             }
             GeometryReader { geo in
-                Overlay()
-                    .offset(x: 0, y: showOverlay ? geo.size.height - 358 + dragTranslate.height :  geo.size.height + 358)
+                Overlay(viewModel: OverlayViewModel())
+                    .offset(x: 0, y: self.showOverlay ? geo.size.height - 358 + self.dragTranslate.height :  geo.size.height + 358)
                     .animation(.spring())
                     .gesture(
                         DragGesture()
@@ -34,13 +34,14 @@ struct OverlayDemo: View {
                             .onEnded({ (value) in
                                 if value.translation.height > 120.0 {
                                     self.showOverlay = false
-                                    dragTranslate = CGSize.zero
+                                    self.dragTranslate = CGSize.zero
                                 } else {
                                     self.dragTranslate = .zero
                                 }
                             })
                     )
-            }.edgesIgnoringSafeArea(.all)
+            }
+            .edgesIgnoringSafeArea(.all)
         }
         
     }

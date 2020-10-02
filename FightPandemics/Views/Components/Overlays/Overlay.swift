@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct Overlay: View {
+    @ObservedObject var viewModel: OverlayViewModel
+    
     var body: some View {
         VStack() {
             Capsule()
@@ -21,7 +23,11 @@ struct Overlay: View {
             Text("This is a paragraph.")
                 .font(.iosNativeP212Px)
             Spacer().frame(height: 20)
-            buttonStack
+            VStack(spacing: 10) {
+                ForEach(0..<viewModel.buttonStatus.count) { i in
+                    SelectionSheetButton(title: viewModel.buttonStatus[i].title, highlighted: viewModel.buttonStatus[i].highlighted)
+                }
+            }
         }.frame(width: 375, height: 358)
         .background(
             Color.white
@@ -30,18 +36,10 @@ struct Overlay: View {
         .cornerRadius(10)
     }
     
-    var buttonStack: some View {
-        VStack(spacing: 10) {
-            SelectionSheetButton(selected: false)
-            SelectionSheetButton(selected: false)
-            SelectionSheetButton(selected: false)
-            SelectionSheetButton(selected: true)
-        }
-    }
 }
 
 struct Overlay_Previews: PreviewProvider {
     static var previews: some View {
-        Overlay()
+        Overlay(viewModel: OverlayViewModel())
     }
 }

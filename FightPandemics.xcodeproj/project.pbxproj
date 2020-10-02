@@ -11,6 +11,8 @@
 		3609BEC7251542B90041EA52 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3609BEC4251542B90041EA52 /* Feed.swift */; };
 		3609BEC8251542B90041EA52 /* TagSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3609BEC6251542B90041EA52 /* TagSelected.swift */; };
 		3609BEEE251545D90041EA52 /* WorkSans-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3609BEED251545D90041EA52 /* WorkSans-VariableFont_wght.ttf */; };
+		364494412526B97E00BEA310 /* SearchResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364494402526B97E00BEA310 /* SearchResultViewModel.swift */; };
+		364494462526BC4100BEA310 /* OverlayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364494452526BC4100BEA310 /* OverlayViewModel.swift */; };
 		365605F5251D601500EA021F /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365605F4251D601500EA021F /* SearchResult.swift */; };
 		365605FC251D658400EA021F /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365605FB251D658400EA021F /* Overlay.swift */; };
 		36560605251D675500EA021F /* SelectionSheetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36560604251D675500EA021F /* SelectionSheetButton.swift */; };
@@ -72,6 +74,8 @@
 		3609BEC4251542B90041EA52 /* Feed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 		3609BEC6251542B90041EA52 /* TagSelected.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagSelected.swift; sourceTree = "<group>"; };
 		3609BEED251545D90041EA52 /* WorkSans-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		364494402526B97E00BEA310 /* SearchResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchResultViewModel.swift; path = FightPandemics/Views/Components/Cards/SearchResultViewModel.swift; sourceTree = SOURCE_ROOT; };
+		364494452526BC4100BEA310 /* OverlayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OverlayViewModel.swift; path = FightPandemics/Views/Components/Cards/OverlayViewModel.swift; sourceTree = SOURCE_ROOT; };
 		365605F4251D601500EA021F /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		365605FB251D658400EA021F /* Overlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay.swift; sourceTree = "<group>"; };
 		36560604251D675500EA021F /* SelectionSheetButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSheetButton.swift; sourceTree = "<group>"; };
@@ -285,6 +289,8 @@
 		D21DA43D24FE4CD8006AA90A /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				364494402526B97E00BEA310 /* SearchResultViewModel.swift */,
+				364494452526BC4100BEA310 /* OverlayViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -447,6 +453,7 @@
 				36560610251D6D7E00EA021F /* OverlayDemo.swift in Sources */,
 				365605F5251D601500EA021F /* SearchResult.swift in Sources */,
 				D21DA40D24FE4C82006AA90A /* AppDelegate.swift in Sources */,
+				364494412526B97E00BEA310 /* SearchResultViewModel.swift in Sources */,
 				3609BEC7251542B90041EA52 /* Feed.swift in Sources */,
 				D21DA44824FE4D12006AA90A /* Profile.swift in Sources */,
 				36560605251D675500EA021F /* SelectionSheetButton.swift in Sources */,
@@ -454,6 +461,7 @@
 				3609BEC8251542B90041EA52 /* TagSelected.swift in Sources */,
 				3609BEBE251542960041EA52 /* Font+Additions.swift in Sources */,
 				D21DA45124FE4D12006AA90A /* Post.swift in Sources */,
+				364494462526BC4100BEA310 /* OverlayViewModel.swift in Sources */,
 				D21DA44B24FE4D12006AA90A /* Search.swift in Sources */,
 				D21DA44524FE4D12006AA90A /* Inbox.swift in Sources */,
 				36FF2010251D8A110080565F /* ExpandableText.swift in Sources */,

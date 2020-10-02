@@ -41,7 +41,7 @@ struct Feed: View {
             .foregroundColor(Color("purpleishBlue"))
             .font(.iosNativeP311Px)
             Spacer()
-            TagSelected()
+            TagSelected(text: "Label")
         }
     }
     

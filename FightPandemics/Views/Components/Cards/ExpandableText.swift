@@ -9,8 +9,8 @@
 import SwiftUI
 
 struct ExpandableText: View {
-    @State var text: String
-    @State var lineLimit: Int
+    let text: String
+    let lineLimit: Int?
 
     var body: some View {
         ZStack(alignment: .bottomTrailing) {
@@ -30,7 +30,7 @@ struct ExpandableText: View {
 
 struct ExpandableText_Previews: PreviewProvider {
     static var previews: some View {
-        ExpandableText(text: "Max 6 lines for the preview of the post. Max 6 line for the preview of the post. Max 6 lins for the preview of the post. Max 6 line for the preview of the post. Max 6 line for the preview of the post. Max 6 line for the preview of the post. Max 6 line for the preview of ...", lineLimit: 6)
+        ExpandableText(text: "Max 3 lines for the preview of the post. Max 3 line for the preview of the post. Max 3 linse for the preview of the post. Max 3 lines", lineLimit: 3)
             .previewLayout(.fixed(width: 395, height: 362))
     }
 }

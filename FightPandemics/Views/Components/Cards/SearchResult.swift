@@ -9,14 +9,16 @@
 import SwiftUI
 
 struct SearchResult: View {
+    @ObservedObject var viewModel: SearchResultViewModel
+    
     var body: some View {
         VStack(spacing: 0) {
             metaInfo
             Spacer().frame(height: 6)
-            Text("This is a title message.")
+            Text(viewModel.title)
                 .font(.iosNativeH216Px)
             Spacer().frame(height: 10)
-            ExpandableText(text: "Max 3 lines for the preview of the post. Max 3 line for the preview of the post. Max 3 linse for the preview of the post. Max 3 lines", lineLimit: 3)
+            ExpandableText(text: viewModel.bodyText, lineLimit: viewModel.lineLimit)
         }
         .frame(width: 335, alignment: .center)
         .padding(.all, 20)
@@ -28,13 +30,13 @@ struct SearchResult: View {
                 .foregroundColor(Color("brownGrey"))
                 .font(.iosNativeP311Px)
             Spacer()
-            TagSelected()
+            TagSelected(text: viewModel.tagText)
         }
     }
 }
 
 struct SearchResult_Previews: PreviewProvider {
     static var previews: some View {
-        SearchResult()
+        SearchResult(viewModel: SearchResultViewModel())
     }
 }

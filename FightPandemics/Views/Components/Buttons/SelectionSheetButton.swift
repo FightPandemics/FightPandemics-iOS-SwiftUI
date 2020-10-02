@@ -9,24 +9,25 @@
 import SwiftUI
 
 struct SelectionSheetButton: View {
-    @State var selected: Bool = false
+    let title: String
+    let highlighted: Bool
     
     var body: some View {
         Button(action: {
-            selected.toggle()
+            // TODO: Add button action here
         }) {
-            Text("Button Label")
+            Text(title)
                 .font(.iosNativeP114Px)
         }
         .frame(width: 335, height: 45)
-        .background(selected ? Color("purpleishBlue") : Color("veryLightPinkTwo"))
-        .foregroundColor(selected ? Color("white") : Color("black"))
+        .background(highlighted ? Color("purpleishBlue") : Color("veryLightPinkTwo"))
+        .foregroundColor(highlighted ? Color("white") : Color("black"))
         .cornerRadius(4.0)
     }
 }
 
 struct SelectionSheetButton_Previews: PreviewProvider {
     static var previews: some View {
-        SelectionSheetButton()
+        SelectionSheetButton(title: "Label", highlighted: false)
     }
 }
