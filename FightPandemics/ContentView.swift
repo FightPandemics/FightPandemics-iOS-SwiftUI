@@ -15,38 +15,34 @@ struct ContentView: View {
         NavigationView {
             
             TabView {
-                //Text("Content of first view")
+
                 Home()
                     .tabItem {
-                        Image(systemName: "house")
+                        Image("home-icon")
                         Text("Home")
                 }
                 
-                //Text("Content of second view")
                 Search()
                     .tabItem {
-                        Image(systemName: "magnifyingglass")
+                        Image("magnifier-icon")
                         Text("Search")
                 }
                 
-                //Text("Content of third view")
                 Post()
                     .tabItem {
                         Image(systemName: "plus.circle")
                         Text("Post")
                 }
                 
-                //Text("Content of third view")
                 Inbox()
                     .tabItem {
-                        Image(systemName: "tray.and.arrow.down")
+                        Image("inbox-icon")
                         Text("Inbox")
                 }
                 
-                //Text("Content of fourth view")
                 Profile()
                     .tabItem {
-                        Image(systemName: "person.circle")
+                        Image("profile-icon")
                         Text("Profile")
                 }
             }
