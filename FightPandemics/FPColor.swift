@@ -14,8 +14,12 @@ struct FPColor {
     static let black30 = Color("black30")
     static let blackThree = Color("blackThree")
     static let blackTwo = Color("blackTwo")
+<<<<<<< HEAD
    
     static let brownGrey = #colorLiteral(red: 0.5759999752, green: 0.5759999752, blue: 0.5759999752, alpha: 1)
+=======
+    static let brownGrey = Color("brownGrey")
+>>>>>>> a40a1a2ba53487f58584592f57bccc99f026086a
     static let brownGreyTwo = Color("brownGreyTwo")
     static let colorCorrectOpen = Color("colorCorrectOpen")
     static let colorErrorExpired = Color("colorErrorExpired")
@@ -24,6 +28,7 @@ struct FPColor {
     static let paleGrey = Color("paleGrey")
     static let paleGreyTwo = Color("paleGreyTwo")
     static let purpleishBlue = Color("purpleishBlue")
+<<<<<<< HEAD
     static let purplishBlue = Color(#colorLiteral(red: 0.2590000033, green: 0.3529999852, blue: 0.949000001, alpha: 1))
     static let veryLightGrey = #colorLiteral(red: 0.8429999948, green: 0.8429999948, blue: 0.8429999948, alpha: 1)
     static let veryLightPinkTwo = Color("veryLightPinkTwo")
@@ -46,3 +51,12 @@ struct FPColor_Previews: PreviewProvider {
         /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
     }
 }
+=======
+    static let veryLightPink = Color("veryLightPink")
+    static let veryLightPinkTwo = Color("veryLightPinkTwo")
+    static let white = Color("white")
+}
+
+// https://app.zeplin.io/project/5ecaeec0e0303147915effa8/styleguide/colors
+    
+>>>>>>> a40a1a2ba53487f58584592f57bccc99f026086a
