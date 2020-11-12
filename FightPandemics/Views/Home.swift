@@ -10,20 +10,11 @@ import SwiftUI
 
 struct Home: View {
     
-    let helpMenuSelection = ["All", "Offers", "Requests"]
-    @State private var selectedSection = 0
-    
     var body: some View {
         
         VStack {
             
-            Picker("Selection", selection: $selectedSection) {
-                Text("All").tag(0)
-                Text("Offers").tag(1)
-                Text("Requests").tag(2)
-            }
-            .pickerStyle(SegmentedPickerStyle())
-            .background(Color("colorSecond"))
+            HelpMenuBar()
             
             Spacer()
             
@@ -37,10 +28,13 @@ struct Home: View {
 }
 
 
+
+// MARK: Preview
 struct Home_Previews: PreviewProvider {
     static var previews: some View {
         Home()
     }
 }
+
 
 
