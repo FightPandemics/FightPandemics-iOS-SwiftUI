@@ -10,19 +10,11 @@ import SwiftUI
 
 struct UserContainer: View {
     var body: some View {
-        // Logo + User Name + Location
+        // Avatar + User Name + Location
         HStack {
             
-            // Logo
-            Text("VM")
-                .font(.custom("Poppins-Medium", size: 14))
-                .frame(width: 36, height: 36, alignment: .center)
-                .foregroundColor(FPColor.purpleishBlue)
-                .background(FPColor.paleGreyTwo)
-                .cornerRadius(18)
-                .overlay(
-                    RoundedRectangle(cornerRadius: 18).stroke(FPColor.purpleishBlue, lineWidth: 1)
-                )
+            // Avatar
+            Avatar()
             
             // User Name + Location
             VStack(alignment: .leading) {
