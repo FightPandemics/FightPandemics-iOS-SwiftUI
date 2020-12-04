@@ -6,25 +6,16 @@
 	<array>
 		<string>DMSans-Regular.ttf</string>
 		<string>DMSans-Medium.ttf</string>
-		<string>WorkSans-Medium.otf</string>
 		<string>DMSans-Bold.ttf</string>
-		<string>Poppins-Medium.otf</string>
 		<string>WorkSans-Regular.otf</string>
+		<string>WorkSans-Medium.otf</string>
 		<string>WorkSans-Bold.otf</string>
-		<string>OpenSans-Bold.ttf</string>
-		<string>Poppins-Bold.otf</string>
 		<string>OpenSans-Regular.ttf</string>
+		<string>OpenSans-Bold.ttf</string>
 		<string>Poppins-Regular.otf</string>
+		<string>Poppins-Medium.otf</string>
+		<string>Poppins-Bold.otf</string>
 	</array>
-	<key>CFBundleDisplayName</key>
-	<string></string>
-	<key>LSApplicationCategoryType</key>
-	<string></string>
-	<key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSAllowsArbitraryLoads</key>
-		<true/>
-	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -46,12 +37,22 @@
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
-		<true/>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+				</dict>
+			</array>
+		</dict>
 	</dict>
-	<key>UIApplicationSupportsIndirectInputEvents</key>
-	<true/>
-	<key>UILaunchScreen</key>
-	<dict/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
